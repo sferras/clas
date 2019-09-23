@@ -1,8 +1,5 @@
 lifecounter=30
 
-
-
-
 while lifecounter > 0:
     print("You are in the magic maze, which way would you like to go? (N,S,E,W)")
     answer1 = input()
@@ -28,6 +25,7 @@ while lifecounter > 0:
                         answer6 = input()
                         if answer6 == "S":
                             print("CONGRATULATIONS, YOU MADE IT OUT OF THE MAZE IN ", lifecounter, "MOVES! :)")
+                            break
                         else:
                             print("incorrect")
                             lifecounter = lifecounter - 1
